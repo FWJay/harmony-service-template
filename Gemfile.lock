@@ -1,0 +1,81 @@
+GIT
+  remote: https://github.com/HarmonyMobile/harmony-service.git
+  revision: 271a9176523f8005eae59caca81db7824c088677
+  ref: 271a9176523f8005eae59caca81db7824c088677
+  specs:
+    harmony-service (0.2.0)
+      bunny (~> 2.7.0.pre)
+      oj (~> 2.17.4)
+      rollbar (~> 2.12)
+      sneakers (~> 2.4)
+
+GIT
+  remote: https://github.com/ruby-amqp/bunny.git
+  revision: a359894f6efeb47107252878888ebbd4c7b03d6c
+  ref: a359894f6efeb47107252878888ebbd4c7b03d6c
+  specs:
+    bunny (2.7.0.pre)
+      amq-protocol (>= 2.0.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    amq-protocol (2.1.0)
+    ast (2.3.0)
+    byebug (9.0.6)
+    diff-lcs (1.2.5)
+    multi_json (1.12.1)
+    oj (2.17.5)
+    parser (2.3.3.1)
+      ast (~> 2.2)
+    powerpack (0.1.1)
+    rainbow (2.2.1)
+    rollbar (2.14.0)
+      multi_json
+    rspec (3.5.0)
+      rspec-core (~> 3.5.0)
+      rspec-expectations (~> 3.5.0)
+      rspec-mocks (~> 3.5.0)
+    rspec-core (3.5.4)
+      rspec-support (~> 3.5.0)
+    rspec-expectations (3.5.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.5.0)
+    rspec-mocks (3.5.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.5.0)
+    rspec-support (3.5.0)
+    rubocop (0.46.0)
+      parser (>= 2.3.1.1, < 3.0)
+      powerpack (~> 0.1)
+      rainbow (>= 1.99.1, < 3.0)
+      ruby-progressbar (~> 1.7)
+      unicode-display_width (~> 1.0, >= 1.0.1)
+    ruby-progressbar (1.8.1)
+    serverengine (1.5.11)
+      sigdump (~> 0.2.2)
+    sigdump (0.2.4)
+    sneakers (2.4.0)
+      bunny (~> 2.6)
+      serverengine (~> 1.5.11)
+      thor
+      thread (~> 0.1.7)
+    thor (0.19.4)
+    thread (0.1.7)
+    unicode-display_width (1.1.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bunny!
+  byebug
+  harmony-service!
+  rspec (~> 3.5)
+  rubocop (~> 0.46.0)
+
+RUBY VERSION
+   ruby 2.3.3p222
+
+BUNDLED WITH
+   1.14.3
